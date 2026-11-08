@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-Hant" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>綠野香醇 - 手作茶飲專賣</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-emerald-50 text-emerald-950 font-sans min-h-screen flex flex-col">
+
+    <!-- 導覽列 -->
+    <header class="bg-white/90 backdrop-blur shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-emerald-700 flex items-center gap-2">
+                🍃 綠野香醇
+            </a>
+            <nav class="flex gap-6 text-base font-medium">
+                <a href="#home" class="hover:text-emerald-600 transition">首頁</a>
+                <a href="#about" class="hover:text-emerald-600 transition">關於我們</a>
+                <a href="#menu" class="hover:text-emerald-600 transition">精選菜單</a>
+                <a href="#contact" class="hover:text-emerald-600 transition">聯絡我們</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 主內容區 -->
+    <main class="flex-grow">
+
+        <!-- 1. 首頁區塊 -->
+        <section id="home" class="py-20 px-6 text-center bg-gradient-to-b from-emerald-100 to-emerald-50">
+            <div class="max-w-3xl mx-auto space-y-6">
+                <span class="bg-emerald-200 text-emerald-800 text-sm px-3 py-1 rounded-full font-semibold">100% 天然茶葉手作</span>
+                <h1 class="text-4xl md:text-5xl font-extrabold text-emerald-900 tracking-tight">每一口，都是大自然的純粹香醇</h1>
+                <p class="text-lg text-emerald-700">精選優質茶葉與新鮮食材，堅持手作調配，帶給您最溫暖療癒的品茶時光。</p>
+                <div class="pt-4 flex justify-center gap-4">
+                    <a href="#menu" class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold px-6 py-3 rounded-lg shadow transition">瀏覽精選菜單</a>
+                    <a href="#contact" class="bg-white hover:bg-emerald-50 text-emerald-700 border border-emerald-300 font-bold px-6 py-3 rounded-lg transition">聯絡我們</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. 關於我們（公司介紹）區塊 -->
+        <section id="about" class="py-16 px-6 max-w-5xl mx-auto">
+            <div class="bg-white p-8 md:p-12 rounded-2xl shadow-sm border border-emerald-100 grid md:grid-cols-2 gap-8 items-center">
+                <div class="space-y-4">
+                    <span class="text-emerald-600 font-bold uppercase tracking-wider text-sm">About Us</span>
+                    <h2 class="text-3xl font-bold text-emerald-900">關於 綠野香醇</h2>
+                    <p class="text-emerald-700 leading-relaxed">
+                        「綠野香醇」創立於綠意盎然的街角，我們深信一杯好茶能療癒日常的忙碌。從嚴選茶葉產地到每日現煮，我們堅持不添加人工香精，讓每一位顧客都能喝到茶葉本身的甘甜與層次。
+                    </p>
+                    <p class="text-emerald-700 leading-relaxed">
+                        無論是午後的微風，或是通勤途中的打氣，綠野香醇陪伴您度過每一個清新時刻。
+                    </p>
+                </div>
+                <div class="bg-emerald-100 h-64 rounded-xl flex items-center justify-center text-emerald-600 font-medium">
+                    [ 品牌形象照片 / 茶園意象 ]
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. 精選菜單區塊 -->
+        <section id="menu" class="py-16 px-6 max-w-5xl mx-auto">
+            <div class="text-center space-y-2 mb-12">
+                <span class="text-emerald-600 font-bold uppercase tracking-wider text-sm">Our Menu</span>
+                <h2 class="text-3xl font-bold text-emerald-900">精選人氣茶飲</h2>
+                <p class="text-emerald-700">挑選您喜愛的茶香與風味</p>
+            </div>
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
+                <!-- 菜單品項 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-emerald-100 flex flex-col justify-between">
+                    <div>
+                        <div class="bg-emerald-50 h-40 rounded-lg mb-4 flex items-center justify-center text-emerald-500 font-semibold">[ 飲品圖片 ]</div>
+                        <h3 class="font-bold text-lg text-emerald-900">招牌翠玉綠茶</h3>
+                        <p class="text-sm text-emerald-600 mt-1">清新回甘，帶有淡淡茉莉花香。</p>
+                    </div>
+                    <div class="mt-4 flex justify-between items-center">
+                        <span class="text-emerald-700 font-bold">NT$ 45</span>
+                        <span class="text-xs bg-emerald-100 text-emerald-800 px-2 py-1 rounded">微糖微冰最推</span>
+                    </div>
+                </div>
+                <!-- 菜單品項 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-emerald-100 flex flex-col justify-between">
+                    <div>
+                        <div class="bg-emerald-50 h-40 rounded-lg mb-4 flex items-center justify-center text-emerald-500 font-semibold">[ 飲品圖片 ]</div>
+                        <h3 class="font-bold text-lg text-emerald-900">香醇珍珠鮮奶茶</h3>
+                        <p class="text-sm text-emerald-600 mt-1">濃郁小農鮮乳搭配Q彈手作珍珠。</p>
+                    </div>
+                    <div class="mt-4 flex justify-between items-center">
+                        <span class="text-emerald-700 font-bold">NT$ 65</span>
+                        <span class="text-xs bg-emerald-100 text-emerald-800 px-2 py-1 rounded">人氣熱銷</span>
+                    </div>
+                </div>
+                <!-- 菜單品項 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-sm border border-emerald-100 flex flex-col justify-between">
+                    <div>
+                        <div class="bg-emerald-50 h-40 rounded-lg mb-4 flex items-center justify-center text-emerald-500 font-semibold">[ 飲品圖片 ]</div>
+                        <h3 class="font-bold text-lg text-emerald-900">手作冬瓜檸檬</h3>
+                        <p class="text-sm text-emerald-600 mt-1">古早味冬瓜磚熬煮結合新鮮檸檬汁。</p>
+                    </div>
+                    <div class="mt-4 flex justify-between items-center">
+                        <span class="text-emerald-700 font-bold">NT$ 55</span>
+                        <span class="text-xs bg-emerald-100 text-emerald-800 px-2 py-1 rounded">酸甜解膩</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. 聯絡我們區塊（已串接您的 Formspree 信箱） -->
+        <section id="contact" class="py-16 px-6 max-w-xl mx-auto">
+            <div class="bg-white p-8 rounded-2xl shadow-lg border border-emerald-100">
+                <h2 class="text-3xl font-bold text-center text-emerald-900 mb-2">聯絡我們</h2>
+                <p class="text-center text-emerald-600 mb-8">填寫下方表單，訊息將直接寄送到您的信箱！</p>
+
+                <!-- Formspree 聯絡表單 -->
+                <form action="https://formspree.io/f/xjyyzklp" method="POST" class="space-y-6">
+                    <div>
+                        <label for="name" class="block text-sm font-semibold text-emerald-700 mb-2">您的姓名：</label>
+                        <input type="text" id="name" name="name" required 
+                               class="w-full px-4 py-3 rounded-lg border border-emerald-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-emerald-50/30"
+                               placeholder="請輸入您的姓名">
+                    </div>
+
+                    <div>
+                        <label for="phone" class="block text-sm font-semibold text-emerald-700 mb-2">連絡電話：</label>
+                        <input type="tel" id="phone" name="phone" required 
+                               class="w-full px-4 py-3 rounded-lg border border-emerald-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-emerald-50/30"
+                               placeholder="請輸入您的聯絡電話">
+                    </div>
+
+                    <div>
+                        <label for="email" class="block text-sm font-semibold text-emerald-700 mb-2">電子信箱 (E-MAIL)：</label>
+                        <input type="email" id="email" name="email" required 
+                               class="w-full px-4 py-3 rounded-lg border border-emerald-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-emerald-50/30"
+                               placeholder="example@email.com">
+                    </div>
+
+                    <div>
+                        <label for="message" class="block text-sm font-semibold text-emerald-700 mb-2">聯絡內容：</label>
+                        <textarea id="message" name="message" rows="4" required 
+                                  class="w-full px-4 py-3 rounded-lg border border-emerald-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-emerald-50/30"
+                                  placeholder="請輸入您想詢問的內容..."></textarea>
+                    </div>
+
+                    <button type="submit" 
+                            class="w-full py-3 bg-emerald-600 text-white font-bold rounded-lg shadow hover:bg-emerald-700 transition duration-200">
+                        送出表單
+                    </button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 頁尾 -->
+    <footer class="bg-white border-t border-emerald-100 py-6 text-center text-sm text-emerald-600">
+        <p>&copy; 2026 綠野香醇 版權所有</p>
+    </footer>
+
+</body>
+</html>
